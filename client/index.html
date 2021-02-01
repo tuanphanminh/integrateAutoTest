@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Push Notifications using Node.js and Web Push</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+<!-- Begin page content -->
+<main class="container">
+  <h1 class="mt-5"> Auto Load Training Data</h1>
+    <div class="btn-group btn-group-justified">
+        <button class="btn btn-primary  btnAutoLoadDs01">Testcase 1</button>
+        <button class="btn btn-primary  btnAutoLoadDs02">Testcase 2</button>
+        <button class="btn btn-primary  btnAutoLoadDs03">Testcase 3</button>
+        <button class="btn btn-primary  btnAutoLoadDs04">Testcase 4</button>
+
+    </div>
+</main>
+
+  <script src="main.js"></script>
+  <script type="text/javascript" language="javascript">
+      window.onload = function()
+      {
+          triggerPushNotification().catch(error => console.error(error));
+      };
+  </script>
+</body>
+</html>
+

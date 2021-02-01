@@ -1,0 +1,22 @@
+{
+  "name": "integrateAutoTest",
+  "version": "1.0.0",
+  "description": " Simple web for loading training testing data",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://"
+  },
+  "author": "tuan.phan",
+  "license": "Free",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "web-push": "^3.4.4"
+  }
+}
